@@ -387,14 +387,15 @@ $(document).ready(function () {
 <pre><code>library(rsconnect)
 rsconnect::deployApp('shinynew/app.R')
 where 'shinynew' is the name of the app</code></pre>
-<p>If and when the app is running, it will be hosted [here]<a href="https://sanchit-singh.shinyapps.io/shinynew/" class="uri">https://sanchit-singh.shinyapps.io/shinynew/</a>.</p>
+<p>If and when the app is running, it will be hosted <a href="https://sanchit-singh.shinyapps.io/shinynew/">here</a>, which is a server hosted page by Rstudio.</p>
 <ul>
 <li>I wonder if I can run R scripts directly online on Github itself by somehow packaging everything? At-least I can try using knitr to create documents with R script results.</li>
 </ul>
-<p>Basic steps followed:</p>
+<p>Working within RStudio:</p>
 <ul>
-<li>Copy the url of the github repository and create a new versin control project in Rstudio with that (create a local copy of the repo). Having created the Rstudio project, markdown files can also be edited/preview straight from Rstudio.</li>
+<li>Copy the url of the github repository and create a new versin control project in Rstudio with that (create a local copy of the repo). Having created the Rstudio project, markdown files can also be edited/preview straight from Rstudio. Better still, create *.rmd files that can embed R code (as well as python code) and the results/plots using knitr.</li>
 </ul>
+<p>-Creating personal website(s) in R <a href="https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html#blogs" class="uri">https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html#blogs</a></p>
 <div id="markdown" class="section level3">
 <h3>Markdown</h3>
 <p>You can use the <a href="https://github.com/sanchit-singh/Data-Analysis-with-R/edit/master/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>

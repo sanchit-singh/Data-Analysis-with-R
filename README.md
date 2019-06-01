@@ -14,11 +14,11 @@ If and when the app is running, it will be hosted [here](https://sanchit-singh.s
 
 - I wonder if I can run R scripts directly online on Github itself by somehow packaging everything? At-least I can try using knitr to create documents with R script results.
 
+Working within RStudio:
+
+- Copy the url of the github repository and create a new versin control project in Rstudio with that (create a local copy of the repo). Having created the Rstudio project, markdown files can also be edited/preview straight from Rstudio. Better still, create *.rmd files that can embed R code (as well as python code) and the results/plots using knitr.
 
 
-Basic steps followed:
-
-- Copy the url of the github repository and create a new versin control project in Rstudio with that (create a local copy of the repo). Having created the Rstudio project, markdown files can also be edited/preview straight from Rstudio.
 
 
 
