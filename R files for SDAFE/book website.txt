@@ -1,0 +1,4 @@
+R scripts for Statistics and Data Analysis for Financial Engineering with R Examples, 2nd ed.
+
+https://people.orie.cornell.edu/davidr/SDAFE2/Rscripts/index.html
+
