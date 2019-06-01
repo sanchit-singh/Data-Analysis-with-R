@@ -1,14 +1,34 @@
-## Welcome to GitHub Pages
+## My Project website
 
+Examples: 
+
+- My full CV is available [here](R files for SDAFE/rf_plot.pdf). Actually keep it on [main website](https://sanchit-singh.github.io/).
+- My shiny app [here](shinynew/app.R). Must find a way to depploy this app on Github server. 
+Answer is RStudio's [shinyapps.io](https://www.shinyapps.io/admin/#/dashboard). Free account created (limitatins of 5 apps and 25 hours of active use monthly). Package 'rsconnect' has been installed. Token has been added to identify my Mac. Run this everytime to deploy 
+```
+library(rsconnect)
+rsconnect::deployApp('shinynew/app.R')
+where 'shinynew' is the name of the app
+```
+If and when the app is running, it will be hosted [here](https://sanchit-singh.shinyapps.io/shinynew/), which is a server hosted page by Rstudio.
+
+- I wonder if I can run R scripts directly online on Github itself by somehow packaging everything? At-least I can try using knitr to create documents with R script results.
+
+
+
+Basic steps followed:
+
+- Copy the url of the github repository and create a new versin control project in Rstudio with that (create a local copy of the repo). Having created the Rstudio project, markdown files can also be edited/preview straight from Rstudio.
+
+
+
+### Markdown
 You can use the [editor on GitHub](https://github.com/sanchit-singh/Data-Analysis-with-R/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 The website for this project is 
 https://sanchit-singh.github.io/Data-Analysis-with-R/ .
 
-
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
